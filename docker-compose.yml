@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - '1771:1771'
+    environment:
+      - POSGRES_USER=postgres
+      - POSTGRES_PASSWORD=659605728
+      - POSTGRES_DB=nest_graphql_prisma_docker
